@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mauxanh">#10b42e</color>
+    <color name="mautim">#a00dae</color>
+    <color name="mauxam">#727174</color>
+    <color name="xanhlanhat">#32cd32</color>
+    <color name="mauvang">#ffff00</color>
+    <color name="xanhthan">#000080</color>
+    <color name="maudo">#ff0000</color>
+    <color name="C2">#008080</color>
+    <color name="tim">#ba55d3</color>
+    <color name="timnhat">#ff00ff</color>
+</resources>
