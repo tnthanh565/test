@@ -6,86 +6,27 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@color/mauxanh"
-        android:gravity="center"
-        android:paddingLeft="10dp"
-        android:text="A"
-        android:textSize="30sp" />
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@color/mauvang"
-        android:gravity="center"
+        android:layout_height="634dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="90"
         android:paddingLeft="10dp"
-        android:text="B"
-        android:textSize="30sp" />
+        android:src="@drawable/img"
+
+        />
+
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@color/xanhthan"
+        android:lay
+        out_width="match_parent"
+        android:layout_height="95dp"
+        android:background="#BC5764"
+        android:textColor="#F1FAFB"
         android:gravity="center"
         android:paddingLeft="10dp"
-        android:text="C"
-        android:textSize="30sp" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="96dp"
-        android:background="@color/maudo"
-        android:gravity="center"
-        android:paddingLeft="10dp"
-        android:text="D"
-        android:textSize="30sp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="507dp"
-        android:layout_weight="1"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:background="@color/tim"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:text="A"
-            android:textSize="30sp" />
-
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:background="@color/xanhlanhat"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:text="B"
-            android:textSize="30sp" />
-
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:background="@color/C2"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:text="C"
-            android:textSize="30sp" />
-
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:background="@color/timnhat"
-            android:gravity="center"
-            android:paddingLeft="10dp"
-            android:text="D"
-            android:textSize="30sp" />
-
-
-    </LinearLayout>
+        android:text="Trần Như Thành"
+        android:textSize="50sp" />
 
 </LinearLayout>
